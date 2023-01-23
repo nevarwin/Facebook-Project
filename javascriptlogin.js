@@ -5,26 +5,21 @@ function validate(){
     var password = document.getElementById("Password").value;
 if ( username == "admin" && password == "admin123"){
     alert ("Login successfully");
-    //window.location = "success.html"; // Redirecting to other page.
     return false;
 }
 else if(username == "raven" && password =="raven123"){
     alert ("Login successfully")
-    //window.location = "success.html"; // Redirecting to other page.
     return false;
 }
 else if(username == "armil" && password =="armil123"){
     alert ("Login successfully")
-    //window.location = "success.html"; // Redirecting to other page.
     return false;
 }
 else if(username == "ydrian" && password =="ydrian123"){
     alert ("Login successfully")
-    //window.location = "success.html"; // Redirecting to other page.
     return false;
 }
 else{
-attempt --;// Decrementing by one.
 alert("Failed! Please Try Again!");
 // Disabling fields after 3 attempts.
     if( attempt == 0){
