@@ -21,8 +21,6 @@ div h1 {
   position: relative;
   left: 200px;
   top: 200px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #Password,
 #Username {
