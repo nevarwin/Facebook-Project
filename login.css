@@ -1,80 +1,79 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
-body{
+body {
   background-color: #f0f2f5;
   overflow: hidden;
 }
 
-
-p{
+p {
   position: absolute;
-font-size: 28px;   
+  font-size: 28px;
   left: 190px;
   top: 286px;
-
 }
-div h1{
+div h1 {
   color: #1877f2;
   font-size: 60px;
   position: relative;
   left: 200px;
   top: 200px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-#Password,#Username{
+#Password,
+#Username {
   font-size: 18px;
- border: 1px solid;
- padding: 20px 69px 20px;
- margin: 4px 0 0 17px;
- text-align: left;
- border-radius: 5px;
-}
-.submit{
   border: 1px solid;
- padding: 20px 150px;
- margin: 4px 0 0 15px;
- background-color: #1877f2;
- font-family: arial;
- color: white;
- font-weight: bold;
- font-size: 20px;
- border-radius: 5px;
+  padding: 20px 69px 20px;
+  margin: 4px 0 0 17px;
+  text-align: left;
+  border-radius: 5px;
 }
-.submit2{
- border: 0px solid;
- padding: 6px 31.5px;
- margin: 16px 0 0 70px;
- background-color: #51c025;
- font-family: arial;
- color: white;
- font-weight: bold;
- font-size: 20px;
- border-radius: 5px;
- text-decoration: none;
- position: relative;
- top: 13px;
+.submit {
+  border: 1px solid;
+  padding: 20px 150px;
+  margin: 4px 0 0 15px;
+  background-color: #1877f2;
+  font-family: arial;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
 }
-.form{
-  position:absolute;
+.submit2 {
+  border: 0px solid;
+  padding: 6px 31.5px;
+  margin: 16px 0 0 70px;
+  background-color: #51c025;
+  font-family: arial;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  position: relative;
+  top: 13px;
+}
+.form {
+  position: absolute;
   right: 150px;
   top: 140px;
 }
-form{
+form {
   align-items: center;
-   background-color: #fff;
-   border: none;
-   border-radius: 8px;
-   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-   box-sizing: border-box;
-   margin: 40px 0 0;
-   padding: 20px 0 28px;
-   width: 396px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
 }
-.form{
+.form {
   margin-top: 5px;
 }
