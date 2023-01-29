@@ -9,9 +9,9 @@ function validate() {
   } else if (username == "raven" && password == "raven123") {
     window.location = "./Raven Portfolio/practice.html";
     alert("Login successfully");
-
     return false;
   } else if (username == "armil" && password == "armil123") {
+    window.location = "./Armil Portfolio/Armil Prac.html";
     alert("Login successfully");
     return false;
   } else if (username == "ydrian" && password == "ydrian123") {

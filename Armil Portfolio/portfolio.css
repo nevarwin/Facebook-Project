@@ -1,0 +1,25 @@
+body{
+
+}
+.panel {
+    float: right;
+    margin-top: -3%;
+    display: flex;
+    gap: 120px; 
+}
+.works{
+    font-size: 60px;
+    
+}
+.mainlorem{
+    margin-top: 5%;
+    font-size: 30px;
+}
+.lorem1{
+    display: flex;
+    gap: 150px;
+}
+.lorem2{
+    display: flex;
+    gap: 150px;
+}

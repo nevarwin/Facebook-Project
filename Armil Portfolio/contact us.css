@@ -1,0 +1,61 @@
+body{
+
+}
+.panel {
+    float: right;
+    margin-top: -3%;
+    display: flex;
+    gap: 120px; 
+}
+.contact{
+    font-size: 60px;
+}
+.mainlorem{
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.mainlorem2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 5%;
+    left: 55%;
+    bottom: 27%;
+}
+
+.lorem1{
+    display: flex;
+}
+.lorem2{
+    display: flex;
+}
+.lorem3{
+    display: flex;
+}
+.lorem4{
+    display: flex;
+}
+.logo1{
+    display: flex;
+    position: absolute;
+    left: 23%;
+    bottom: 40%;
+}
+.logo2{
+    display: flex;
+    position: absolute;
+    left: 23%;
+    bottom: 22%;
+}
+.logo3{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    bottom: 37%;
+}
+.logo4{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    bottom: -12%;
+}

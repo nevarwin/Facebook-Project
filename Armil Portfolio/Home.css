@@ -1,0 +1,29 @@
+body {
+  /* margin: 0; */
+}
+.line {
+}
+a:hover {
+  color: red;
+}
+.h1 {
+  font-size: 90px;
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+}
+.name {
+  font-size: 20px;
+  display: block;
+}
+.panel {
+  float: right;
+  margin-top: -44%;
+  display: flex;
+  gap: 120px;
+}
+
+.logout {
+  position: relative;
+  text-decoration: none;
+}
