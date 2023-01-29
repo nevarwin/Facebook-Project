@@ -7,7 +7,9 @@ function validate() {
     alert("Login successfully");
     return false;
   } else if (username == "raven" && password == "raven123") {
+    window.location = "./Portfolio/practice.html";
     alert("Login successfully");
+
     return false;
   } else if (username == "armil" && password == "armil123") {
     alert("Login successfully");
