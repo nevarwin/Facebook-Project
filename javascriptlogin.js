@@ -7,7 +7,7 @@ function validate() {
     alert("Login successfully");
     return false;
   } else if (username == "raven" && password == "raven123") {
-    window.location = "./Portfolio/practice.html";
+    window.location = "./Raven Portfolio/practice.html";
     alert("Login successfully");
 
     return false;
@@ -15,6 +15,7 @@ function validate() {
     alert("Login successfully");
     return false;
   } else if (username == "ydrian" && password == "ydrian123") {
+    window.location = "./Ydrian Portfolio/home.html";
     alert("Login successfully");
     return false;
   } else {
