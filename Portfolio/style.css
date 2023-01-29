@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carme&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Comfortaa, sans-serif;
+  background-color: rgba(25, 10, 0, 1);
+}
+
+div.home a {
+  position: absolute;
+  width: 0.7%;
+  height: 25%;
+  left: 0px;
+  top: 0px;
+
+  background: #ff840c;
+}
+
+div.about a {
+  position: absolute;
+  width: 0.7%;
+  height: 25%;
+  left: 0px;
+  top: 25%;
+
+  background: #fffce8;
+}
+
+div.works a {
+  position: absolute;
+  width: 0.7%;
+  height: 25%;
+  left: 0px;
+  top: 50%;
+
+  background: #fffce8;
+}
+
+div.contact a {
+  position: absolute;
+  width: 0.7%;
+  height: 25%;
+  left: 0px;
+  top: 75%;
+
+  background: #fffce8;
+}
+
+div.home a:hover {
+  background: #fffce8;
+}
+
+div.about a:hover,
+.works a:hover,
+.contact a:hover {
+  background: #ff840c;
+}
+
+div.title {
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+div.title p {
+  display: inline;
+  color: rgba(25, 10, 0, 1);
+  font-size: 6em;
+  font-family: Carme, sans-serif;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(255, 132, 12, 1);
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-size: 2rem;
+  color: rgba(255, 252, 232, 1);
+}
+
+div.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 132, 12, 1);
+}
+
+div.photo {
+  top: 15%;
+  left: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+div.photo img {
+  height: 100%;
+  width: 100%;
+}

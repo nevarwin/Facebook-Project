@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carme&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Comfortaa, sans-serif;
+  background-color: rgba(25, 10, 0, 1);
+}
+
+div.home a {
+  position: absolute;
+  width: 15px;
+  height: 25%;
+  left: 0px;
+  top: 0px;
+
+  background: #ff840c;
+}
+
+div.about a {
+  position: absolute;
+  width: 15px;
+  height: 25%;
+  left: 0px;
+  top: 25%;
+
+  background: #ff840c;
+}
+
+div.works a {
+  position: absolute;
+  width: 15px;
+  height: 25%;
+  left: 0px;
+  top: 50%;
+
+  background: #fffce8;
+}
+
+div.contact a {
+  position: absolute;
+  width: 15px;
+  height: 25%;
+  left: 0px;
+  top: 75%;
+
+  background: #fffce8;
+}
+
+div.home a:hover,
+.about a:hover {
+  background: #fffce8;
+}
+
+div.works a:hover,
+.contact a:hover {
+  background: #ff840c;
+}
+
+div.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+div.title > span {
+  color: rgba(25, 10, 0, 1);
+  font-size: 4em;
+  font-family: Carme, sans-serif;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(255, 132, 12, 1);
+  letter-spacing: 0.05em;
+}
+
+div.title > p {
+  text-align: center;
+  max-width: 50%;
+}
+
+h1 {
+  color: #ff840c;
+}
+
+div.title h1 {
+  font-size: 3rem;
+}
+
+div.title p {
+  font-size: 1.5rem;
+  color: #fffce8;
+}
+
+div.photo {
+  top: 27%;
+  left: 20%;
+  position: absolute;
+  z-index: 1;
+}
+
+div.photo img {
+  height: 100%;
+  width: 100%;
+}
+
+div.skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+div.hardSkills {
+  color: #fffce8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: 33px;
+}
+
+div.softSkills {
+  color: #fffce8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: 33px;
+}

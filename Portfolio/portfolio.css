@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carme&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Comfortaa, sans-serif;
+  background-color: rgba(25, 10, 0, 1);
+}
+
+div.home a {
+  position: absolute;
+  width: 15px;
+  height: 25%;
+  left: 0px;
+  top: 0px;
+
+  background: #ff840c;
+}
+
+div.about a {
+  position: absolute;
+  width: 15px;
+  height: 25%;
+  left: 0px;
+  top: 25%;
+
+  background: #ff840c;
+}
+
+div.works a {
+  position: absolute;
+  width: 15px;
+  height: 25%;
+  left: 0px;
+  top: 50%;
+
+  background: #ff840c;
+}
+
+div.contact a {
+  position: absolute;
+  width: 15px;
+  height: 25%;
+  left: 0px;
+  top: 75%;
+
+  background: #fffce8;
+}
+
+div.home a:hover,
+.about a:hover,
+.works a:hover {
+  background: #fffce8;
+}
+
+div .contact a:hover {
+  background: #ff840c;
+}
+
+div.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+div.title > span {
+  color: rgba(25, 10, 0, 1);
+  font-size: 4em;
+  font-family: Carme, sans-serif;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(255, 132, 12, 1);
+  letter-spacing: 0.05em;
+}
+
+div.photos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: absolute;
+  gap: 10%;
+  top: 20%;
+  left: 13%;
+}
+
+div.pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 10%;
+}
+
+div.picture1 {
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left: 13%;
+  inline-size: 20%;
+}
+
+div.picture2 {
+  display: inline-block;
+  position: absolute;
+  top: 85%;
+  left: 39%;
+  inline-size: 20%;
+}
+
+div.picture3 {
+  display: inline-block;
+  position: absolute;
+  top: 73%;
+  left: 70%;
+  inline-size: 20%;
+}
+
+h1 {
+  color: #ff840c;
+}
+
+h4 {
+  /* position: relative; */
+  /* top: 100%; */
+  /* left: 10%; */
+  font-size: 1.5em;
+  text-align: center;
+  overflow-wrap: break-word;
+  color: #fffce8;
+  line-height: 1.5em;
+}
